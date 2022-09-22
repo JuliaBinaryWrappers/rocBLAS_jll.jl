@@ -1,6 +1,6 @@
 name = "rocBLAS_jll"
 uuid = "1ef8cab2-a151-54b4-a57f-5fbb4046a4ab"
-version = "5.2.3+0"
+version = "5.2.3+1"
 
 [deps]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"

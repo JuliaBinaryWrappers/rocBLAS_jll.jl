@@ -1,10 +1,10 @@
 [[rocBLAS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bcfb4e6eeee1e31f4356f7da90f32497364da33f"
+git-tree-sha1 = "1fd1782850f6482c5bdbeec69cb3d1e43d949a3c"
 libc = "glibc"
 os = "linux"
 
     [[rocBLAS.download]]
-    sha256 = "0a5af2ac87daf1f5fa2b01c4e2c8e0f8f35d9f0c73a47848d9542e7b60a68c5c"
-    url = "https://github.com/JuliaBinaryWrappers/rocBLAS_jll.jl/releases/download/rocBLAS-v5.2.3+0/rocBLAS.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "31843058eefc6e11e442bffd05d909a420b7969fcebaf28aa128c26e2d42b0b8"
+    url = "https://github.com/JuliaBinaryWrappers/rocBLAS_jll.jl/releases/download/rocBLAS-v5.2.3+1/rocBLAS.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"

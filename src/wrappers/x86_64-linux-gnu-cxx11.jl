@@ -13,7 +13,7 @@ function __init__()
     JLLWrappers.@generate_init_header(ROCmCompilerSupport_jll, ROCmOpenCLRuntime_jll, ROCmDeviceLibs_jll, rocminfo_jll, hsa_rocr_jll, HIP_jll)
     JLLWrappers.@init_library_product(
         librocblas,
-        "rocblas/lib/librocblas.so",
+        "lib/librocblas.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
