@@ -7,10 +7,11 @@ using ROCmDeviceLibs_jll
 using rocminfo_jll
 using hsa_rocr_jll
 using HIP_jll
+using msgpack_jll
 JLLWrappers.@generate_wrapper_header("rocBLAS")
 JLLWrappers.@declare_library_product(librocblas, "librocblas.so.0")
 function __init__()
-    JLLWrappers.@generate_init_header(ROCmCompilerSupport_jll, ROCmOpenCLRuntime_jll, ROCmDeviceLibs_jll, rocminfo_jll, hsa_rocr_jll, HIP_jll)
+    JLLWrappers.@generate_init_header(ROCmCompilerSupport_jll, ROCmOpenCLRuntime_jll, ROCmDeviceLibs_jll, rocminfo_jll, hsa_rocr_jll, HIP_jll, msgpack_jll)
     JLLWrappers.@init_library_product(
         librocblas,
         "lib/librocblas.so",
